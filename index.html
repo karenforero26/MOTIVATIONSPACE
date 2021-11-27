@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumbo-website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+            <a class="logo"href="index.html"> <img src="img/logo.png" alt="logo Rumbo"></a>
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="#planes">categorias</a></li>
+                <li><a href="#destinos">escritores</a></li>
+                <li><a href="#contacto">contacto</a></li>
+            </ul>
+
+
+        </nav>
+        <div id="hero">
+            <img src="img/brujula.png" alt="brijula">
+            <h1>MOTIVATIONSPACE</h1>
+            <P>EL SITIO WEB DE UN UNIVERSO LITERARIO IDEAL PARA TI</P>
+            <button>empezar</button>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <section id="planes">
+            <!-- la clase container funciona como contenedor y centra el contenido a un ancho de 1200px -->
+            <div class="container">
+                <h2>categorias</h2>
+                <p>En <b>MOTIVATIONSPACE</b>escontraras algunas categorias para ti <br>
+                     selecciona la categoria que mas te guste </p>
+                    <!-- simepre que necesitemos crear columnas primero debemos construir una fila -->
+                    <div class="fila">
+                        <!-- el numero 12 simboliza un 100% - si necesitamos tres columnas la clase sera col-4 porque 4*3=12 -->
+                        <div class="col-4">
+                            <img src="img/senderismo.png" alt="imagen senderismo">
+                            <h3>COMEDIA</h3>
+                            <P>
+                                miles de libros<br>
+                                con mas de 1000 lectores<br>
+                                35000 Pesos<br>
+                               precio de cada libro
+                            </P>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/canotaje.png" alt="imagen senderismo">
+                            <h3>ROMANCE</h3>
+                            <P>
+                                si te gusta disfrutar de <br>
+                                grandes historias de amor<br>
+                                lee un buen libro<br>
+                                150.000 Pesos<br>
+                                te encantaran
+                            </P>
+                        </div>
+                        <div class="col-4">
+                            <img src="img/senderismo.png" alt="imagen senderismo">
+                            <h3>SUSPENSO</h3>
+                            <P>
+                                no hay nada mejor que sumergisrse <br>
+                                 en un buen libro<br>
+                                tener esa intriga y desconcierto de que sucedera<br>
+                                150.000 Pesos<br>
+                                pasa unas divertidas vacaciones
+                            </P>
+                        </div>
+                    </div>
+            
+            </div> 
+        </section>
+        <section id="destinos">
+            <div class="container">
+                <h2>ESCRITORES</h2>
+
+                <div class="fila">
+                    <div class="col-6">
+                         <img src="img/cartagena.png" alt="imagen cartagena">
+                         <h3>L. J SHEN</h3>
+                    </div>
+                     <div class="col-6">
+                          <img src="img/barranquilla.png" alt="imagen barranquilla">
+                         <h3>JAVIER CASTILLO</h3>
+                     </div>
+                 </div>
+
+                 <div class="fila">
+                      <div class="col-6">
+                         <img src="img/llanos.png" alt="imagen llanos">
+                         <h3>TOM SHAPE</h3>
+                     </div>
+                    <div class="col-6">
+                         <img src="img/laguajira.png" alt="imagen la guajira">
+                         <h3>ROBERTO SANTIAGO</h3>
+                     </div>
+                </div>
+         </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>CONTACTO</h2>
+
+                <P>comparte con MOTIVATIONSPACE tus datos y estaremos compartiendo contigo los mejores libros
+                    vive la mejor experiencia de tu vida.</P>
+
+                    <form action="#">
+                        <div class="fila">
+                            <input type="text" placeholder="nombres:" >
+                            <input type="number" placeholder="telefono:">
+                        </div>
+                        <div class="fila">
+                            <input type="email" placeholder="Email:" >
+
+                            <select name="" id="">
+                                <option value="#">ciudad:</option>
+                                <option value="#">bogota</option>
+                                <option value="#">medellin</option>
+                                <option value="#">barranquilla</option>
+                            </select>
+                        </div>
+                        <button type="submit">ENVIAR</button>
+                    </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>� Todos los derechos reservados <br>
+            MOTIVATIONSPACE@gmail.com <br>
+            +57 3222289810 <br>
+            cale 3 # 8-27</p>
+    </footer>
+</body>
+</html>
+
+
+
+
